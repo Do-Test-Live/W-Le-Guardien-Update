@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Garamond-Bold';
+    src: url("../fonts/Garamond-Bold.otf");
+}
+
+.lg-bg-blue {
+    background: #13324f;
+    padding: 1rem 0 !important;
+}
+
+.lg-bg-gradient {
+    background-image: linear-gradient(to bottom, #173958, #244d73);
+}
+
+.lg-bg-blue h1{
+    font-family: 'Garamond-Bold',sans-serif;
+    font-size: 57px;
+}
+
+.lg-content-bg{
+    background-image: url("../images/custom/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-family: "Times New Roman",sans-serif;
+    font-size: 26px;
+    margin-bottom: 2rem;
+    color: #214161;
+}
+
+ul{
+    margin-bottom: 2rem;
+}
+
+ul li{
+    list-style-type: none;
+    font-family: 'Garamond-Bold',sans-serif;
+    font-size: 20px;
+    color: #214161;
+}
+
+.col-lg-4{
+    padding-left: unset;
+    padding-right: unset;
+}
+
+@media only screen and (max-width: 550px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    ul li{
+        font-size: 16px;
+    }
+    .lg-bg-blue h1{
+        font-size: 32px;
+    }
+}
